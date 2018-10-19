@@ -15,7 +15,7 @@ public class Solarsystem {
      }
 
     public static void main(String[] args) throws IOException{    
-        FileReader fr=new FileReader("H:\\solarsystem.dat");
+        FileReader fr=new FileReader("solarsystem.dat");
          Solarsystem sunSystem=new Solarsystem();
         BufferedReader br=new BufferedReader(fr);
         String line="";
